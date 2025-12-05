@@ -1,0 +1,65 @@
+% The First Part of the document is called the preamble
+% It contains general descriptions (metadata like) and document requirements
+
+%-------------------------- Preamble -----------------------------
+\documentclass[12p, a4paper]{article}
+% --------------------- Packages  -------------------------------
+
+% C include python import  .........................
+% syntax for latex \usepackage[arguments]{package_name}
+
+
+\usepackage[utf8]{inputenc}
+%% just for the session to generate dummy text
+\usepackage{lipsum}
+% To use figures and images
+\usepackage{graphicx}
+% To use hyperlinks
+\usepackage{hyperref}
+% To be able to use the \nonident command
+\usepackage{parskip}
+
+
+%------------------- ENDOF Preamble ------------------------
+% ------------------ Document -------------------------------
+
+
+\begin{document}
+\begin{titlepage}
+    \centering %% alternative (\begin{center} ..... \end{center}) everythin that comes in between begin and end or centering is going to be on the center
+    \includegraphics[width=4cm]{univ-batna2.png}\\ \vspace{0.3cm}
+    {\large University of Batna 2}  \\ %% \n to back to the line (new line) in latex new line is  "\\"
+    {\large Faculty of mathematics and computer science}\\
+    {\large Department of computer science}\\ \vspace{6cm} 
+
+    \rule{\linewidth}{0.3mm}\\\vspace{0.5cm}
+    {\LARGE \textbf{Practical Techniques of Scientific Writing}} \\ 
+    \vspace{0.5cm} 
+    {\large \textbf{Latex Basics Course}}\\
+    \vspace{0.3cm}
+    \rule{\linewidth}{0.2mm}\\
+
+\begin{flushleft}
+        \textbf{Instructor:} HADJI Oussama\\
+        \textbf{Course:} Online Practicle Session\\
+        \textbf{Duration:} 1.5 hours.
+\end{flushleft}
+
+    
+\noindent
+%example of what ident means the space before the paragraph begins
+\begin{minipage}{0.45\textwidth}
+    \raggedright
+    \textbf{Instructor:}\\ HADJI Oussama\\
+\end{minipage}
+\hfill
+\begin{minipage}{0.45\textwidth}
+    \raggedleft
+    \textbf{Instructor:}\\ HADJI Oussama\\
+\end{minipage}
+
+
+\vfill 
+{\large Academic Year 2025-2026}
+\end{titlepage}
+\end{document}

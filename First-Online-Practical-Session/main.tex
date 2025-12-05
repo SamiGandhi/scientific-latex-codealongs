@@ -1,0 +1,118 @@
+\documentclass{article}
+%In python to use packages we use the keyword import
+
+%usefull to insert figures
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+\usepackage[a4paper,margin = 2cm]{geometry}
+
+\pagestyle{fancy}
+
+\fancyhf{} %Clear everything
+
+
+\fancyhead[L]{My Header}
+\fancyhead[R]{\thepage}
+\fancyfoot[C]{My name.}
+\begin{document}
+
+\tableofcontents
+
+\section{Introduction}
+here are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
+\subsection{Where can I get some?}
+Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+
+The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+
+
+\subsubsection{Where does it come from?}
+Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+
+\paragraph{1914 translation by H. Rackham}
+
+"But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure\cite{Art1}"
+
+
+\textbf{This is bold text}.
+\textit{This is italic text.}
+\underline{This is underline text.}
+\textbf{\textit{This is bold and italic text}}.
+\section{Background}
+Some Background Text....
+\begin{figure}[h]
+    \centering
+    \includegraphics[width = 0.5\textwidth]{univ-batna2.png}
+    \caption{University Logo}
+    \label{fig:univ-logo}
+\end{figure}
+
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+See Figure \ref{fig:univ-logo}.
+
+
+
+\section{Literature Review}
+Furthermore, energy consumption in wireless networks is another critical concern, particularly with the shift towards green and sustainable communication systems. As the number of connected devices increases, energy efficiency becomes paramount for reducing operational costs and minimizing the environmental impact. Techniques such as energy harvesting, energy-aware routing, and machine learning models for predictive resource management are being explored to optimize energy utilization. These approaches enable networks to balance performance with energy savings, ensuring sustainable growth. Effective resource optimization contributes significantly to wireless networks' reliability, scalability, performance, and user experience. By reducing bottlenecks and enhancing the dynamic allocation of resources, networks can maintain high-quality service levels even under peak loads, ensuring networks' scalability to support future demands and improved reliability for mission-critical applications such as healthcare and autonomous navigation systems. Furthermore, optimized resources enhance user experience by minimizing latency, improving throughput, and ensuring consistent connectivity. Hence, resource optimization is indispensable for the evolution of future wireless networks. With the integration of advanced technologies such as AI, edge computing, and network virtualization, the effective utilization of spectrum, bandwidth, and energy will be pivotal in addressing the challenges posed by the growing demands of a connected world.
+Traditional optimization approaches often lack the flexibility and adaptability required to handle the dynamic nature of future wireless environments. Conventional approaches rely on fixed models and pre-defined rules, making them less effective in responding to real-time changes and varying network conditions. To address the above limitations, machine learning algorithms can play a pivotal role in managing and optimizing resources in future wireless networks. In contrast to traditional optimization algorithms, machine learning algorithms can learn from data, adapt to new scenarios, and continuously improve their performance. This capability makes them highly suitable for managing the complex and dynamic challenges associated with future wireless networks . By leveraging large amounts of network data, these algorithms can make data-driven decisions for resource allocation, ensuring that networks operate more efficiently and intelligently. The ability of machine learning algorithms to be parallelized and distributed allows them to scale effectively with the increasing size and complexity of modern wireless networks. This scalability is essential as the number of connected devices and the demand for high-speed, low-latency communication continue to grow.
+Machine learning has numerous potential applications in resource optimization in wireless networks. One key application is dynamic adaptability, where algorithms adjust resource allocation in real-time based on current network demands and conditions. Predictive analysis is another crucial area, allowing networks to forecast future resource requirements and proactively manage resources to prevent congestion and inefficiencies. Additionally, machine learning enables context-aware decision-making when allocating resources by considering user behavior, device capabilities, and network topology. This approach ensures that resources are used in the most effective manner possible \cite{Art2}.
+
+
+\begin{itemize}
+    \item First item.
+    \item Second item.
+    \item Third item.
+\end{itemize}
+
+
+\begin{enumerate}
+    \item step one.
+    \item step two.
+\end{enumerate}
+
+\section{Methodlogy}
+The following code is in python:\\ 
+
+\texttt{import matplotlib as lib}
+
+%Math basics equations inline math
+
+This is inline math which describe the relativity law $E = mc^2$.
+\begin{equation}
+\int_0^1 x^2 \, dx = \frac{1}{3}
+\end{equation}
+
+
+\section{Tables}
+
+% {tabular}{decribe your columns}
+
+
+
+\begin{table}[h]
+\centering
+\begin{tabular}{c c c}
+\hline
+A & B & C \\ 
+1 & 2 & 3 \\ 
+4 & 5 & 6 \\ \hline
+\end{tabular}
+\caption{This is a dummy table.}
+\label{tab:dummy}
+\end{table}
+
+t is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).\\
+There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
+See Table \ref{tab:dummy}.
+
+
+jhgvscjqkc,qmcimùqdoudflmqdsysbmcq  \cite{Art1}
+
+
+
+\bibliographystyle{plain}%unsrt, alpha .....
+\bibliography{refrences}
+\end{document}
